@@ -127,6 +127,7 @@ CORS_ALLOW_HEADERS = [
 
 CSRF_TRUSTED_ORIGINS = [
     "https://*.ewhafesta.co.kr",  # 모든 서브도메인 허용
+    "https://*.up.railway.app",
 ]
 
 ROOT_URLCONF = 'festival.urls'
