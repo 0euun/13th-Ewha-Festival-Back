@@ -8,7 +8,9 @@ pymysql.install_as_MySQLdb()
 AUTH_USER_MODEL = 'accounts.User'
   
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+# BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 
 # environ을 사용해 환경 변수 설정
 env = environ.Env(
