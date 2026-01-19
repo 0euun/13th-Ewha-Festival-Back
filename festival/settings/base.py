@@ -135,7 +135,7 @@ CSRF_TRUSTED_ORIGINS = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    "13th-ewha-festival-back-production.up.railway.app",
+    "https://13th-ewha-festival-back-production.up.railway.app",
     "https://13th-ewha-festival-front-1lo9.vercel.app",
 ]
 
