@@ -131,6 +131,12 @@ CORS_ALLOW_HEADERS = [
 CSRF_TRUSTED_ORIGINS = [
     "https://*.ewhafesta.co.kr",  # 모든 서브도메인 허용
     "https://*.up.railway.app",
+    "https://13th-ewha-festival-front-1lo9.vercel.app/"
+]
+
+CORS_ALLOWED_ORIGINS = [
+    "13th-ewha-festival-back-production.up.railway.app",
+    "https://13th-ewha-festival-front-1lo9.vercel.app",
 ]
 
 ROOT_URLCONF = 'festival.urls'
